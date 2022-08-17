@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/selectionsort/main.c
+stdio.h
+-
+time.h
+/cygdrive/e/selectionsort/time.h
+stdlib.h
+/cygdrive/e/selectionsort/stdlib.h
+

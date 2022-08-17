@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/bubblesort/main.c
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+stdio.h
+/cygdrive/e/bubblesort/stdio.h
+
